@@ -1,6 +1,6 @@
-function treeHouseCompare(a, b) {
+function treeHouseCompare(a, b,floors) {
 
-    var houseArea = a * a + a * a / 3;
+    var houseArea = a * a *floors
     var treeArea = b * b / 3 + Math.PI * (2 * b / 3) * (2 * b / 3);
     var result;
 
